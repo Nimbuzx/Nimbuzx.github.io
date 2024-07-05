@@ -10,4 +10,4 @@ gtag('config', 'G-DSDWJYJHG3'); </script>
 </head>
 <body>
     <h2>Home</h2>
-    <label><a href="../Tabela_Periodica/tab.html">Tabela Periódica Interativa</a><br>Tabela periódica que ao clicar no elemento, são exibidas informações sobre o mesmo
+    <label><a href="https://nimbuzx.github.io/tabela-periodica.html">Tabela Periódica Interativa</a><br>Tabela periódica que ao clicar no elemento, são exibidas informações sobre o mesmo
