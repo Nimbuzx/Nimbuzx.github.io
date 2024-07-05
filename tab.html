@@ -1,0 +1,4443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Periódica</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="tab.css" />
+    <script src="../JS/tab.js"></script>
+    <link rel="icon" href="tabelaa.png" />
+  </head>
+  <body>
+    <h3 id="msg1">
+      <b
+        >Deixe seu dispositivo na paisagem para que você possa vizualizar a
+        tabela.</b
+      >
+    </h3>
+    <h3 id="msg2">
+      <b
+        >Caso esteja em um dispositivo no modo retrato, deixe no modo paisagem,
+        para que a tabela fique melhor.</b
+      >
+    </h3>
+    <table id="table">
+      <tr>
+        <td class="btn btn-outline-light" id="num">1</td>
+        <td class="btn btn-outline-light" id="num">2</td>
+        <td class="btn btn-outline-light" id="num">3</td>
+        <td class="btn btn-outline-light" id="num">4</td>
+        <td class="btn btn-outline-light" id="num">5</td>
+        <td class="btn btn-outline-light" id="num">6</td>
+        <td class="btn btn-outline-light" id="num">7</td>
+        <td class="btn btn-outline-light" id="num">8</td>
+        <td class="btn btn-outline-light" id="num">9</td>
+        <td class="btn btn-outline-light" id="num">10</td>
+        <td class="btn btn-outline-light" id="num">11</td>
+        <td class="btn btn-outline-light" id="num">12</td>
+        <td class="btn btn-outline-light" id="num">13</td>
+        <td class="btn btn-outline-light" id="num">14</td>
+        <td class="btn btn-outline-light" id="num">15</td>
+        <td class="btn btn-outline-light" id="num">16</td>
+        <td class="btn btn-outline-light" id="num">17</td>
+        <td class="btn btn-outline-light" id="num">18</td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#um"
+        >
+          <br />&nbsp;1<br />&nbsp;H
+          <p></p>
+        </td>
+        <td
+          id="dos"
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#dois"
+        >
+          <br />2<br />He
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-info"
+          data-toggle="modal"
+          data-target="#tres"
+        >
+          <br />&nbsp;3<br />Li
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#quatro"
+        >
+          <br />&nbsp;4 <br />Be
+          <p></p>
+        </td>
+        <td
+          id="tt"
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#cinco"
+        >
+          <br />&nbsp;5<br />&nbsp;B
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#seis"
+        >
+          <br />&nbsp;6<br />&nbsp;C
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#sete"
+        >
+          <br />&nbsp;7<br />&nbsp;N
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#oito"
+        >
+          <br />&nbsp;8<br />&nbsp;O
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#nove"
+        >
+          <br />&nbsp;9<br />&nbsp;F
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#dez"
+        >
+          <br />10<br />Ne
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-info"
+          data-toggle="modal"
+          data-target="#onze"
+        >
+          <br />11<br />Na
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#doze"
+        >
+          <br />12<br />Mg
+          <p></p>
+        </td>
+        <td
+          id="tt"
+          class="btn btn-outline-dark"
+          data-toggle="modal"
+          data-target="#treze"
+        >
+          <br />13<br />Al
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#quatorze"
+        >
+          <br />14<br />Si
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#quinze"
+        >
+          <br />15<br />&nbsp;P
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#dezesseis"
+        >
+          <br />16<br />&nbsp;S
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#dezessete"
+        >
+          <br />17<br />Cl
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#dezoito"
+        >
+          <br />18<br />Ar
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-info"
+          data-toggle="modal"
+          data-target="#dezenove"
+        >
+          <br />19<br />&nbsp;K
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#v0"
+        >
+          <br />20<br />Ca
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v1">
+          <br />21 <br />Sc
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v2">
+          <br />22<br />Ti
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v3">
+          <br />23<br />&nbsp;V
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v4">
+          <br />24<br />Cr
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v5">
+          <br />25<br />Mn
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v6">
+          <br />26<br />Fe
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v7">
+          <br />27<br />Co
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v8">
+          <br />28<br />Ni
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#v9">
+          <br />29<br />Cu
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#t0">
+          <br />30<br />Zn
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#t1">
+          <br />31<br />Ga
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#t2"
+        >
+          <br />32<br />Ge
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#t3"
+        >
+          <br />33<br />As
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#t4"
+        >
+          <br />34<br />Se
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#t5"
+        >
+          <br />35<br />Br
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#t6"
+        >
+          <br />36<br />Kr
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td class="btn btn-outline-info" data-toggle="modal" data-target="#t7">
+          <br />37<br />Rb
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#t8"
+        >
+          <br />38<br />Sr
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#t9">
+          <br />39 <br />&nbsp;Y
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q0">
+          <br />40<br />Zr
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q1">
+          <br />41<br />Nb
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q2">
+          <br />42<br />Mo
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q3">
+          <br />43<br />Tc
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q4">
+          <br />44<br />Ru
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q5">
+          <br />45<br />Rh
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q6">
+          <br />46<br />Pd
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q7">
+          <br />47<br />Ag
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#q8">
+          <br />48<br />Cd
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#q9">
+          <br />49<br />In
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#c0">
+          <br />50<br />Sn
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#c1"
+        >
+          <br />51<br />Sb
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-warning"
+          data-toggle="modal"
+          data-target="#c2"
+        >
+          <br />52<br />Te
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#c3"
+        >
+          <br />53<br />&nbsp;I
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#c4"
+        >
+          <br />54<br />Xe
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td class="btn btn-outline-info" data-toggle="modal" data-target="#c5">
+          <br />55<br />Cs
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#c6"
+        >
+          <br />56<br />Ba
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" id="a">
+          57
+          <p>até</p>
+          71
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st2"
+        >
+          <br />72<br />Hf
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st3"
+        >
+          <br />73<br />Ta
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st4"
+        >
+          <br />74<br />&nbsp;W
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st5"
+        >
+          <br />75<br />Re
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st6"
+        >
+          <br />76<br />Os
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st7"
+        >
+          <br />77<br />Ir
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st8"
+        >
+          <br />78<br />Pt
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#st9"
+        >
+          <br />79<br />Au
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" data-toggle="modal" data-target="#o0">
+          <br />80<br />Hg
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#o1">
+          <br />81<br />Tl
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#o2">
+          <br />82<br />Pb
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#o3">
+          <br />83<br />Bi
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#o4">
+          <br />84<br />Po
+          <p></p>
+        </td>
+        <td class="btn btn-outline-dark" data-toggle="modal" data-target="#o5">
+          <br />85<br />At
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-success"
+          data-toggle="modal"
+          data-target="#o6"
+        >
+          <br />86<br />Rn
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td class="btn btn-outline-info" data-toggle="modal" data-target="#o7">
+          <br />87<br />Fr
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-danger"
+          data-toggle="modal"
+          data-target="#o8"
+        >
+          <br />88<br />Ra
+          <p></p>
+        </td>
+        <td class="btn btn-outline-light" id="b">
+          89
+          <p>até</p>
+          103
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#ce4"
+        >
+          <br />104<br />Rf
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#ce5"
+        >
+          <br />105<br />Db
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#ce6"
+        >
+          <br />106<br />Sg
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#ce7"
+        >
+          <br />107<br />Bh
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          data-toggle="modal"
+          data-target="#ce8"
+        >
+          <br />108<br />Hs
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce9"
+        >
+          <br />109<br />Mt
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce10"
+        >
+          <br />110<br />Ds
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce11"
+        >
+          <br />111<br />Rg
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce12"
+        >
+          <br />112<br />Cn
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce13"
+        >
+          <br />113<br />Nh
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce14"
+        >
+          <br />114<br />Fl
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce15"
+        >
+          <br />115<br />Mc
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce16"
+        >
+          <br />116<br />Lv
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce17"
+        >
+          <br />117<br />Ts
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-secondary"
+          data-toggle="modal"
+          data-target="#ce18"
+        >
+          <br />118<br />Og
+          <p></p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <table id="table2">
+      <tr>
+        <td><h4>Lantanídeos (57 - 71)</h4></td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-light"
+          id="aa"
+          data-toggle="modal"
+          data-target="#c7"
+        >
+          <br />57<br />La
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a1"
+          data-toggle="modal"
+          data-target="#c8"
+        >
+          <br />58<br />Ce
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a2"
+          data-toggle="modal"
+          data-target="#c9"
+        >
+          <br />59<br />Pr
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a3"
+          data-toggle="modal"
+          data-target="#s0"
+        >
+          <br />60<br />Nd
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a4"
+          data-toggle="modal"
+          data-target="#s1"
+        >
+          <br />61<br />Pm
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a5"
+          data-toggle="modal"
+          data-target="#s2"
+        >
+          <br />62<br />Sm
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a6"
+          data-toggle="modal"
+          data-target="#s3"
+        >
+          <br />63<br />Eu
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a7"
+          data-toggle="modal"
+          data-target="#s4"
+        >
+          <br />64<br />Gd
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a8"
+          data-toggle="modal"
+          data-target="#s5"
+        >
+          <br />65<br />Tb
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a9"
+          data-toggle="modal"
+          data-target="#s6"
+        >
+          <br />66<br />Dy
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a10"
+          data-toggle="modal"
+          data-target="#s7"
+        >
+          <br />67<br />Ho
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a11"
+          data-toggle="modal"
+          data-target="#s8"
+        >
+          <br />68<br />Er
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a12"
+          data-toggle="modal"
+          data-target="#s9"
+        >
+          <br />69<br />Tm
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a13"
+          data-toggle="modal"
+          data-target="#st0"
+        >
+          <br />70<br />Yb
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="a14"
+          data-toggle="modal"
+          data-target="#st1"
+        >
+          <br />71<br />Lu
+          <p></p>
+        </td>
+      </tr>
+      <tr>
+        <td><h4>Actinídeos (89 - 103)</h4></td>
+      </tr>
+      <tr>
+        <td
+          class="btn btn-outline-light"
+          id="bb"
+          data-toggle="modal"
+          data-target="#o9"
+        >
+          <br />89<br />Ac
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b1"
+          data-toggle="modal"
+          data-target="#n0"
+        >
+          <br />90<br />Th
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b2"
+          data-toggle="modal"
+          data-target="#n1"
+        >
+          <br />91<br />Pa
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b3"
+          data-toggle="modal"
+          data-target="#n2"
+        >
+          <br />92<br />U
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b4"
+          data-toggle="modal"
+          data-target="#n3"
+        >
+          <br />93<br />Np
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b5"
+          data-toggle="modal"
+          data-target="#n4"
+        >
+          <br />94<br />Pu
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b6"
+          data-toggle="modal"
+          data-target="#n5"
+        >
+          <br />95<br />Am
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b7"
+          data-toggle="modal"
+          data-target="#n6"
+        >
+          <br />96<br />Cm
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b8"
+          data-toggle="modal"
+          data-target="#n7"
+        >
+          <br />97<br />Bk
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b9"
+          data-toggle="modal"
+          data-target="#n8"
+        >
+          <br />98<br />Cf
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b10"
+          data-toggle="modal"
+          data-target="#n9"
+        >
+          <br />99<br />Es
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b11"
+          data-toggle="modal"
+          data-target="#ce0"
+        >
+          <br />100<br />Fm
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b12"
+          data-toggle="modal"
+          data-target="#ce1"
+        >
+          <br />101<br />Md
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b13"
+          data-toggle="modal"
+          data-target="#ce2"
+        >
+          <br />102<br />No
+          <p></p>
+        </td>
+        <td
+          class="btn btn-outline-light"
+          id="b14"
+          data-toggle="modal"
+          data-target="#ce3"
+        >
+          <br />103<br />Lr
+          <p></p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <div id="cores">
+      <div class="cores1">
+        <h6>
+          <alt id="circle" class="btn-primary"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Ametais Reativos
+        </h6>
+        <h6>
+          <alt id="circle" class="btn-secondary"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Propriedades Desconhecidas
+        </h6>
+      </div>
+      <div class="cores1">
+        <h6>
+          <alt id="circle" class="btn-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Metais de Transição
+        </h6>
+        <h6>
+          <alt id="circle" class="btn-success"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Gases Nobres
+        </h6>
+      </div>
+      <div class="cores1">
+        <h6>
+          <alt id="circle" class="btn-warning"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Semimetais
+        </h6>
+        <h6>
+          <alt id="circle" class="btn-danger"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Metais alcalinoterrosos
+        </h6>
+      </div>
+      <div class="cores1">
+        <h6>
+          <alt id="circle" class="btn-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Metais pós-transição
+        </h6>
+        <h6>
+          <alt id="circle" class="btn-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Metais alcalinos
+        </h6>
+      </div>
+      <div class="cores1">
+        <h6>
+          <alt id="circle" class="id1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Actinídeos
+        </h6>
+        <h6>
+          <alt id="circle" class="id2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</alt
+          >&nbsp;Lantanídeos
+        </h6>
+      </div>
+    </div>
+    <!-- Modals -->
+    <div
+      class="modal fade"
+      id="um"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Hidrogênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="1.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dois"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Hélio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="2.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="tres"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Lítio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="3.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="quatro"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Berílio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="4.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="cinco"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Boro</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="5.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="seis"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Carbono</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="6.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="sete"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Nitrogênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="7.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="oito"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Oxigênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="8.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="nove"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Flúor</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="9.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dez"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Neônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="10.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="onze"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Sódio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="11.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="doze"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Magnésio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="12.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="treze"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Alumínio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="13.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="quatorze"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Silício</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="14.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="quinze"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Fósforo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="15.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dezesseis"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Enxofre</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="16.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dezessete"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cloro</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="17.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dezoito"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Argônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="18.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="dezenove"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Potássio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="19.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cálcio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="20.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Escândio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="21.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Titânio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="22.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Vanádio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="23.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Crômio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="24.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Manganês</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="25.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Ferro</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="26.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cobalto</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="27.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Níquel</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="28.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="v9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cobre</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="29.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Zinco</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="30.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Gálio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="31.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Germânio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="32.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Arsênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="33.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Selênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="34.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Bromo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="35.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Criptônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="36.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="t7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Rubídio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="37.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Estrôncio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="38.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="t9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Ítrio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="39.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Zircônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="40.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Nióbio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="41.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">
+              Molibdêniio
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="42.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tecnécio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="43.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Rutênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="44.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Ródio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="45.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Paládio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="46.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Prata</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="47.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cádmio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="48.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="q9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Índio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="49.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Estanho</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="50.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Antimônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="51.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Telúrio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="52.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Iodo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="53.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Xenônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="54.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Césio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="55.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Bário</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="56.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Lantânio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="57.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cério</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="58.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="c9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">
+              Praseodímio
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="59.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Neodímio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="60.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Promécio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="61.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Samário</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="62.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Európio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="63.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Gadolínio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="64.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Térbio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="65.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Disprósio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="66.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Hólmio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="67.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Érbio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="68.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="s9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Túlio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="69.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Itérbio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="70.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Lutécio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="71.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Háfnio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="72.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tântalo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="73.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tungstênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="74.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Rênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="75.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Ósmio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="76.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Irídio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="77.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Platina</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="78.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="st9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Ouro</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="79.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Mercúrio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="80.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tálio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="81.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Chumbo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="82.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Bismuto</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="83.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Polônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="84.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Astato</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="85.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Radônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="86.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Frâncio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="87.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Rádio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="88.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="o9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Actínio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="89.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tótio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="90.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">
+              Protactínio
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="91.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Urânio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="92.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Neptúnio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="93.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Plutónio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="94.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Amerício</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="95.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Cúrio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="96.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Berquélio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="97.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Califórnio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="98.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="n9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Einstênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="99.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Férmio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="100.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Mendelévio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="101.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Nobélio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="102.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Laurêncio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="103.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">
+              Rutherfórdio
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="104.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Dúbnio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="105.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Seabórgio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="106.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Bóhrio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="107.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Hássio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="108.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Meitnério</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="109.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce10"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">
+              Darmstádtio
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="110.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce11"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Roentgênio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="111.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce12"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Copernício</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="112.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce13"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Nihônio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="113.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce14"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Fleróvio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="114.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce15"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Moscóvio</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="115.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce16"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Livermório</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="116.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce17"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Tenessino</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="117.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ce18"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalCentralizado"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Oganessô</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="118.png" alt="" style="margin-left: 10%" />
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
