@@ -10,5 +10,13 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7488774288373844"
-     crossorigin="anonymous"></script></head>
+     crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSDWJYJHG3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DSDWJYJHG3');
+</script></head>
 Tabela Periódica interativa
