@@ -21,7 +21,7 @@ gtag('config', 'G-DSDWJYJHG3'); </script>
 </head>
 <body>
     <h2>Home</h2>
-    <label><a href="https://nimbuzx.github.io/tabela-periodica.html">Tabela Periódica Interativa</a><br>Tabela periódica que ao clicar no elemento, são exibidas informações <br><h2>História da Tabela Periódica:</h2><h3><b>Introdução</b></h3>
+    <label><h1><a href="https://nimbuzx.github.io/tabela-periodica.html">Tabela Periódica Interativa</a></h1><br>Tabela periódica que ao clicar no elemento, são exibidas informações <br><h2>História da Tabela Periódica:</h2><h3><b>Introdução</b></h3>
         A Química, desde os seus primórdios, sempre buscou compreender e organizar os elementos que compõem o universo. No século XVIII, os alquimistas tentaram, de diversas maneiras, transformar metais básicos em ouro, mas o verdadeiro conhecimento científico dos elementos começou a ser consolidado apenas com o advento da química moderna. No início do século XIX, com a descoberta de novos elementos, surgiu a necessidade de um sistema de classificação para compreender e prever as propriedades desses elementos.
         <h3><b>Quem inventou</b></h3>
         A maior parte do crédito pela invenção da tabela periódica vai para o químico russo Dmitri Mendeleev. Em 1869, Mendeleev apresentou sua tabela periódica, organizada com base na massa atômica dos elementos conhecidos na época. A característica distintiva da tabela de Mendeleev era o seu poder preditivo: ela deixava espaços em branco para elementos que não haviam sido descobertos, mas cujas propriedades ele foi capaz de prever com notável precisão.
