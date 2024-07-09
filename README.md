@@ -18,6 +18,7 @@ gtag('config', 'G-DSDWJYJHG3'); </script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+    <link rel="icon" href="icone.png">
 </head>
 <body>
     <h2>Home</h2>
