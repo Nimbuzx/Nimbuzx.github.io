@@ -2,6 +2,16 @@ body{
     background-color: rgb(31, 31, 31);
     color: rgba(255, 255, 255, 0.822);
 }
+#Tudo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr{
+    background-color: white;
+}
+h1{
+    margin-left: 10%;
+}
 label>a{
     color: rgb(41, 170, 255);
 }
