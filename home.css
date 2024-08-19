@@ -108,9 +108,7 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 @media (max-width: 700px) {
-    #Tudo{
-        margin-top: 10%
-    }
+    
     *{
         margin-top: -28%;
     }
