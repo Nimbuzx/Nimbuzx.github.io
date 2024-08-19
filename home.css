@@ -109,7 +109,7 @@ nav {
 }
 @media (max-width: 1023px) {
     *{
-        margin-top: -40%;
+        margin-top: -30%;
     }
     h1{
         font-size: xx-large;
