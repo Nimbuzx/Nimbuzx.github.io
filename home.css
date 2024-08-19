@@ -109,7 +109,7 @@ nav {
 }
 @media (max-width: 700px) {
     #nav{
-        margin-top: -21%;
+        margin-top: -18%;
     }
     *{
         margin-top: -25%;
