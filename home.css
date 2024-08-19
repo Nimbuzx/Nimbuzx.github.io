@@ -109,11 +109,11 @@ nav {
 }
 @media (max-width: 1023px) {
     #nav{
-        margin-top: -15%
+        margin-top: -20%
     *{
         margin-top: -23%;
     }
     h1{
-        font-size: xx-large;
+        font-size: larger;
     }
 }
