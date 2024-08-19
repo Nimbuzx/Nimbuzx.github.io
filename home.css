@@ -108,6 +108,9 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 @media (max-width: 1023px) {
+    *{
+        margin-top: 10%;
+    }
     h1{
         font-size: medium;
     }
