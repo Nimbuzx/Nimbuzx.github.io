@@ -113,8 +113,9 @@ nav {
     }
     *{
         margin-top: -25%;
+        position: absolute;
     }
     h1{
-        font-size: x-large;
+        font-size: larger;
     }
 }
