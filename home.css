@@ -108,6 +108,8 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 @media (max-width: 1023px) {
+    #nav{
+        margin-top: -15%
     *{
         margin-top: -23%;
     }
