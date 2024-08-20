@@ -18,7 +18,8 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Nimbuzx/Nimbuzx/output/snake.svg" alt="Snake animation" />
+
 
 <h2>Veja meu projeto:</h2>
 <fieldset><a href="home.html">Um site sobre química, contendo uma tabela periódica interativa e diversos artigos</a></fieldset>
