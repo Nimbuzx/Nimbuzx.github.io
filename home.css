@@ -2,6 +2,7 @@ body{
     background-color: rgb(31, 31, 31);
     color: rgba(255, 255, 255, 0.822);
     margin-top: -200px;
+    overflow-x: hidden;
 }
 #Tudo{
     margin-left: 10%;
