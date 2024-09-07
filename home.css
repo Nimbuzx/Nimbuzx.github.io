@@ -114,3 +114,11 @@ nav {
         font-size: medium;
     }
 }
+footer{
+    background-color: black;
+    width: 140%;
+    margin-left: -15%;
+}
+h4{
+    margin-left: 10%;
+}
