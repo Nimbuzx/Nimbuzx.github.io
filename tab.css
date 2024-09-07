@@ -208,6 +208,9 @@ input{
   #msg2 {
     display: none;
   }
+  #link{
+  margin-left: 10%;
+}
 }
 
 #link{
