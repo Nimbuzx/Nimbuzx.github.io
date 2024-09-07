@@ -94,7 +94,7 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </head>
-<h2 align="left" style="margin-top:5%;">Hi 👋! My name is Nimbuzx</h2>
+<h2 align="left" style="margin-top:-10%;">Hi 👋! My name is Nimbuzx</h2>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
