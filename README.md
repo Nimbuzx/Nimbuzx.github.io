@@ -1,7 +1,7 @@
  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Política de Privacidade</title>
+    <title>Nimbuzx</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -94,7 +94,7 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </head>
-<h2 align="left">Hi 👋! My name is Nimbuzx</h2>
+<h2 align="left" style="margin-top:5%;">Hi 👋! My name is Nimbuzx</h2>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
