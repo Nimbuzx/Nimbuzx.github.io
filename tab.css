@@ -178,9 +178,6 @@ input{
 #voltar{
   color: rgb(0, 102, 255);
 }
-#link{
-  margin-left: 20%;
-}
 @media (max-width: 1023px) {
   #msg2 {
     color: rgb(255, 255, 218);
@@ -211,4 +208,8 @@ input{
   #msg2 {
     display: none;
   }
+}
+
+#link{
+  margin-left: 30%;
 }
