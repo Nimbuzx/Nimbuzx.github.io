@@ -128,5 +128,7 @@ h4{
     margin-left: 15%;
 }
 @media (min-width: 1023px) {
+    body{
     margin-top: -200px;
+    ]
 }
