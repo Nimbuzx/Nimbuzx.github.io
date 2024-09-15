@@ -87,6 +87,15 @@ $(document).ready(function() {
          <link id="opera-gx-stylesheet" rel="stylesheet" href="opera-gx.css" disabled>
       </head>
 <body>
+    <script>
+    function isOperaGX() {
+            return navigator.userAgent.includes('OPR/') && navigator.userAgent.includes('GX');
+        }
+
+        // Ativa o stylesheet específico para Opera GX se for o caso
+        if (isOperaGX()) {
+            document.getElementById('opera-gx-stylesheet').disabled = false;
+        }</script>
     <nav class="navbar navbar-dark bg-dark" id="nav">
         <h1>Tudo sobre Química</h1>
         <div class="off-screen-menu">
