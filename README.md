@@ -114,4 +114,4 @@
 
 <br clear="both">
 <h2>Veja meu projeto:</h2>
-<fieldset><a href="home.html">Um site sobre química, contendo uma tabela periódica interativa e diversos artigos</a></fieldset>
+<fieldset><a href="home.html">Um site sobre química, contendo uma tabela periódica interativa e diversos artigos.</a></fieldset>
