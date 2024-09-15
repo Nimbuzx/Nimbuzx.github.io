@@ -1,3 +1,12 @@
+function isOperaGX() {
+            return navigator.userAgent.includes('OPR/') && navigator.userAgent.includes('GX');
+        }
+
+        // Ativa o stylesheet específico para Opera GX se for o caso
+        if (isOperaGX()) {
+            document.getElementById('opera-gx-stylesheet').disabled = false;
+        }
+
 "use strict;"
 
 var config={"primaryColor":"#115cfa","darkColor":"#1a1a1a","lightColor":"#ffffff","themeMode":"light","showSettingsBtn":false,"showCloseIcon":true,"showDeclineBtn":false,"fullWidth":false,"displayPosition":"bottom","settingsBtnLabel":"Customize","delay":2000,"expires":365,"title":"Cookies","description":"Este site utiliza cookies ou tecnologias semelhantes, para melhorar a sua experiência de navegação e fornecer recomendações personalizadas. Ao continuar a usar nosso site, você concorda com a nossa ","acceptBtnLabel":"Aceito","declineInfoBtnLabel":"Decline","moreInfoBtnLink":"https://nimbuzx.github.io/Politica%20de%20privacidade.html","moreInfoBtnLabel":"Política de Privacidade","cookieTypesTitle":"Select cookies to accept","necessaryCookieTypeLabel":"Necessary","necessaryCookieTypeDesc":"These cookies are necessary for the website to function and cannot be switched off in our systems.","cookieTypes":[{"type":"Preferences","value":"preferences","description":"Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in."},{"type":"Marketing","value":"marketing","description":"Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers."},{"type":"Analytics","value":"analytics","description":"Analytics cookies allow us to count visits and traffic sources, so we can measure and improve the performance of our site. They help us know which pages are the most and least popular and see how visitors move around the site."}]};
