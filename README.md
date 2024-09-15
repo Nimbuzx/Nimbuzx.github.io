@@ -93,6 +93,17 @@
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+  <script src="cookiebanner.script.js"></script>
+<link rel="stylesheet" href="cookiebanner.style.css">
+
+
+<!-- Initialize Cookie Notice  -->
+<script>
+$(document).ready(function() {
+    cookiebanner.init();
+});     
+</script>
+<link id="opera-gx-stylesheet" rel="stylesheet" href="opera-gx.css" disabled>
   </head>
 <h2 align="left" style="margin-top:-10%;">Hi 👋! My name is Nimbuzx</h2>
 
