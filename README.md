@@ -104,6 +104,7 @@ $(document).ready(function() {
 });     
 </script>
   </head>
+  <br>
 <h2 align="left" style="margin-top:-10%;">Hi 👋! My name is Nimbuzx</h2>
 
 <div align="left">
