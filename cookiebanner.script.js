@@ -1,11 +1,3 @@
-function isOperaGX() {
-            return navigator.userAgent.includes('OPR/') && navigator.userAgent.includes('GX');
-        }
-
-        // Ativa o stylesheet específico para Opera GX se for o caso
-        if (isOperaGX()) {
-            document.getElementById('opera-gx-stylesheet').disabled = false;
-        }
 
 "use strict;"
 
