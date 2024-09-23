@@ -122,7 +122,7 @@ $(document).ready(function() {
 <div align="left">
  
   <a href="mailto:bonini.dh@gmail.com?"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /></a>
-  
+  <script type="text/javascript" async src="https://platform.foremedia.net/code/54398/e1"></script>
 </div>
 
 <br clear="both">
