@@ -1,5 +1,4 @@
  <head>
-<script type="text/javascript" async src="https://platform.foremedia.net/code/54398/analytics"></script>
 <meta name="google-site-verification" content="uVlQbSHOeBVlnYz0CO5XuK1Al1-EAELNf5uUS2aOeIs" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -79,22 +78,7 @@
       gtag("js", new Date());
       gtag("config", "G-DSDWJYJHG3");
     </script>
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7488774288373844"
-      crossorigin="anonymous"
-    ></script>
-    <ins
-      class="adsbygoogle"
-      style="display: block; text-align: center"
-      data-ad-layout="in-article"
-      data-ad-format="fluid"
-      data-ad-client="ca-pub-7488774288373844"
-      data-ad-slot="5051388103"
-    ></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    
   <script src="cookiebanner.script.js"></script>
 <link rel="stylesheet" href="cookiebanner.style.css">
 
@@ -107,7 +91,7 @@ $(document).ready(function() {
 </script>
   </head>
   <br>
-<h2 align="left" style="margin-top:-10%;">Hi 👋! My name is Nimbuzx</h2>
+<h2 align="left">Hi 👋! My name is Nimbuzx</h2>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
