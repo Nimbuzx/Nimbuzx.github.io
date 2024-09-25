@@ -1,4 +1,5 @@
  <head>
+<link rel="icon" href="icone.png">
 <meta name="google-site-verification" content="uVlQbSHOeBVlnYz0CO5XuK1Al1-EAELNf5uUS2aOeIs" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
