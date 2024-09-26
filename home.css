@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: rgb(31, 31, 31);
-    color: rgba(255, 255, 255, 0.822);
+    background-color: rgb(252, 250, 255);
+    color: black;
     overflow-x: hidden;
 }
 #Tudo{
@@ -15,7 +15,7 @@ body{
     font-size: larger;
 }
 hr{
-    background-color: white;
+    background-color: black;
 }
 h1{
     margin-left: 10%;
@@ -26,6 +26,7 @@ label>a{
 #nav{
     color: white;
     align-items: center;
+    background-color: rgb(39, 0, 39);
 }
 * {
     margin: 0;
