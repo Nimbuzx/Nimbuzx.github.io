@@ -39,12 +39,15 @@ label>a{
 
 li>a {
     color: white;
+    text-decoration: none;
 }
 li>a:visited {
     color: white;
+    text-decoration: none;
 }
 li>a:hover {
     color: #6F86FF;
+    text-decoration: none;
 }
 
 /* off-screen-menu */
@@ -132,6 +135,6 @@ h2{
     color: black;
 }
 a{
-    color: black;
+    color: #581858;
     text-decoration: underline;
 }
