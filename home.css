@@ -131,3 +131,7 @@ h4{
 h2{
     color: black;
 }
+a{
+    color: black;
+    text-decoration: underline;
+}
